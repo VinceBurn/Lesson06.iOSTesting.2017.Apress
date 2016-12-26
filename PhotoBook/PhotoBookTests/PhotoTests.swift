@@ -19,7 +19,7 @@ class PhotoTests: XCTestCase {
     var validPhotoDictionary1: [String : AnyObject]?
     
     let imageNameKey = "imageName"
-    let apertureKey = "apperture"
+    let apertureKey = "aperture"
     let shutterSpeedKey = "shutterSpeed"
     let isoKey = "iso"
     let commentKey = "comment"

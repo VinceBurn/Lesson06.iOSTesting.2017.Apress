@@ -22,7 +22,7 @@ class CityTests: XCTestCase {
     let photosKey = "photos"
     
     let imageNameKey = "imageName"
-    let apertureKey = "apperture"
+    let apertureKey = "aperture"
     let shutterSpeedKey = "shutterSpeed"
     let isoKey = "iso"
     let commentKey = "comment"

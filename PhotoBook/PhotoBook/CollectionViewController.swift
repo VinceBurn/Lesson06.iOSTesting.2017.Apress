@@ -92,3 +92,26 @@ class CollectionViewController: UICollectionViewController {
     */
 
 }
+
+extension CollectionViewController : CollectionViewControllerProtocol {
+    
+    func setNavigationTitle(_ title:String) -> Void {
+        self.title = title
+    }
+    
+    func setSectionInset(top:Float, left:Float, bottom:Float, right:Float) -> Void {
+        
+        if let collectionView = self.collectionView,
+            let collectionViewLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
+        }
+    }
+    
+    func setupCollectionViewCellToUseMaxWidth() -> Void {
+        
+        if let collectionView = self.collectionView,
+            let collectionViewLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            collectionViewLayout.itemSize = CGSize(width: collectionView.bounds.width, height: collectionView.bounds.width * 0.6)
+        }
+    }
+}

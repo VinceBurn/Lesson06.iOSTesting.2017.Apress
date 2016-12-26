@@ -17,7 +17,7 @@ class Photo: NSObject {
     var comments:String?
     
     let imageNameKey = "imageName"
-    let apertureKey = "apperture"
+    let apertureKey = "aperture"
     let shutterSpeedKey = "shutterSpeed"
     let isoKey = "iso"
     let commentKey = "comment"
