@@ -11,6 +11,10 @@
 		911D00021E1174BB00D9C124 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00001E1174BB00D9C124 /* CollectionViewCellViewModel.swift */; };
 		911D00041E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00031E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift */; };
 		911D00051E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00031E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift */; };
+		911D00071E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */; };
+		911D00081E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */; };
+		911D000A1E11D7F800D9C124 /* MockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */; };
+		911D000C1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */; };
 		911DFFEF1E111FF000D9C124 /* CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFEE1E111FF000D9C124 /* CityTests.swift */; };
 		911DFFF11E112D2500D9C124 /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFF01E112D2500D9C124 /* PhotoTests.swift */; };
 		911DFFF31E115B5400D9C124 /* CollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */; };
@@ -57,6 +61,9 @@
 /* Begin PBXFileReference section */
 		911D00001E1174BB00D9C124 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		911D00031E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionHeaderViewModel.swift; sourceTree = "<group>"; };
+		911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellProtocol.swift; sourceTree = "<group>"; };
+		911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewCell.swift; sourceTree = "<group>"; };
+		911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModelTests.swift; sourceTree = "<group>"; };
 		911DFFEE1E111FF000D9C124 /* CityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTests.swift; sourceTree = "<group>"; };
 		911DFFF01E112D2500D9C124 /* PhotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
 		911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModelTests.swift; sourceTree = "<group>"; };
@@ -108,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				911DFFFE1E115F8400D9C124 /* MockCollectionViewController.swift */,
+				911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */,
 			);
 			name = Mocks;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				911DFFFA1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift */,
+				911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -199,6 +208,7 @@
 				911DFFEE1E111FF000D9C124 /* CityTests.swift */,
 				911DFFF01E112D2500D9C124 /* PhotoTests.swift */,
 				911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */,
+				911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */,
 			);
 			path = PhotoBookTests;
 			sourceTree = "<group>";
@@ -319,6 +329,7 @@
 				91604E581E0DA21900CD07E1 /* CollectionViewSectionHeader.swift in Sources */,
 				916D5F4A1E102FFF008D2991 /* Album.swift in Sources */,
 				911DFFFB1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift in Sources */,
+				911D00071E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */,
 				916D5F441E102A04008D2991 /* Photo.swift in Sources */,
 				911D00011E1174BB00D9C124 /* CollectionViewCellViewModel.swift in Sources */,
 				911D00041E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift in Sources */,
@@ -340,9 +351,12 @@
 				91604E591E0DA21900CD07E1 /* CollectionViewSectionHeader.swift in Sources */,
 				916D5F4B1E102FFF008D2991 /* Album.swift in Sources */,
 				911DFFFC1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift in Sources */,
+				911D000C1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift in Sources */,
 				916D5F451E102A04008D2991 /* Photo.swift in Sources */,
+				911D000A1E11D7F800D9C124 /* MockCollectionViewCell.swift in Sources */,
 				911DFFF31E115B5400D9C124 /* CollectionViewModelTests.swift in Sources */,
 				911DFFEF1E111FF000D9C124 /* CityTests.swift in Sources */,
+				911D00081E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */,
 				911DFFFF1E115F8400D9C124 /* MockCollectionViewController.swift in Sources */,
 				916D5F4D1E103933008D2991 /* AlbumTests.swift in Sources */,
 			);
