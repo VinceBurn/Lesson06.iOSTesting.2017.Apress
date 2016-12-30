@@ -15,6 +15,17 @@
 		911D00081E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */; };
 		911D000A1E11D7F800D9C124 /* MockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */; };
 		911D000C1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */; };
+		911D000E1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D000D1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift */; };
+		911D000F1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D000D1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift */; };
+		911D00131E129E1A00D9C124 /* CollectionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00121E129E1A00D9C124 /* CollectionViewControllerTests.swift */; };
+		911D00151E129E5B00D9C124 /* MockCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00141E129E5B00D9C124 /* MockCollectionViewModel.swift */; };
+		911D00171E12A56800D9C124 /* MockCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00161E12A56800D9C124 /* MockCollectionViewCellViewModel.swift */; };
+		911D00191E12BC5C00D9C124 /* MockCollectionViewSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00181E12BC5C00D9C124 /* MockCollectionViewSectionHeaderViewModel.swift */; };
+		911D001B1E12BE2D00D9C124 /* UICollectionViewStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D001A1E12BE2D00D9C124 /* UICollectionViewStub.swift */; };
+		911D00201E12D13000D9C124 /* CollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D001F1E12D13000D9C124 /* CollectionViewCellTests.swift */; };
+		911D00221E12D14300D9C124 /* CollectionViewSectionHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00211E12D14300D9C124 /* CollectionViewSectionHeaderTests.swift */; };
+		911D00251E12D1C000D9C124 /* UIImageViewStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00231E12D1C000D9C124 /* UIImageViewStub.swift */; };
+		911D00271E12D1D900D9C124 /* UILabelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D00261E12D1D900D9C124 /* UILabelStub.swift */; };
 		911DFFEF1E111FF000D9C124 /* CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFEE1E111FF000D9C124 /* CityTests.swift */; };
 		911DFFF11E112D2500D9C124 /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFF01E112D2500D9C124 /* PhotoTests.swift */; };
 		911DFFF31E115B5400D9C124 /* CollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */; };
@@ -45,7 +56,6 @@
 		91BA35421E0D964700ED0252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA35411E0D964700ED0252 /* AppDelegate.swift */; };
 		91BA35471E0D964700ED0252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BA35451E0D964700ED0252 /* Main.storyboard */; };
 		91BA354C1E0D964800ED0252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BA354A1E0D964800ED0252 /* LaunchScreen.storyboard */; };
-		91BA35571E0D964800ED0252 /* PhotoBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA35561E0D964800ED0252 /* PhotoBookTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,16 @@
 		911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellProtocol.swift; sourceTree = "<group>"; };
 		911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewCell.swift; sourceTree = "<group>"; };
 		911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModelTests.swift; sourceTree = "<group>"; };
+		911D000D1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionHeaderProtocol.swift; sourceTree = "<group>"; };
+		911D00121E129E1A00D9C124 /* CollectionViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerTests.swift; sourceTree = "<group>"; };
+		911D00141E129E5B00D9C124 /* MockCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewModel.swift; sourceTree = "<group>"; };
+		911D00161E12A56800D9C124 /* MockCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		911D00181E12BC5C00D9C124 /* MockCollectionViewSectionHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewSectionHeaderViewModel.swift; sourceTree = "<group>"; };
+		911D001A1E12BE2D00D9C124 /* UICollectionViewStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewStub.swift; sourceTree = "<group>"; };
+		911D001F1E12D13000D9C124 /* CollectionViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellTests.swift; sourceTree = "<group>"; };
+		911D00211E12D14300D9C124 /* CollectionViewSectionHeaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionHeaderTests.swift; sourceTree = "<group>"; };
+		911D00231E12D1C000D9C124 /* UIImageViewStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewStub.swift; sourceTree = "<group>"; };
+		911D00261E12D1D900D9C124 /* UILabelStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelStub.swift; sourceTree = "<group>"; };
 		911DFFEE1E111FF000D9C124 /* CityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTests.swift; sourceTree = "<group>"; };
 		911DFFF01E112D2500D9C124 /* PhotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
 		911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModelTests.swift; sourceTree = "<group>"; };
@@ -89,7 +109,6 @@
 		91BA354B1E0D964800ED0252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91BA354D1E0D964800ED0252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91BA35521E0D964800ED0252 /* PhotoBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91BA35561E0D964800ED0252 /* PhotoBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBookTests.swift; sourceTree = "<group>"; };
 		91BA35581E0D964800ED0252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,11 +130,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		911D00101E129DA000D9C124 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				911D001A1E12BE2D00D9C124 /* UICollectionViewStub.swift */,
+				911D00231E12D1C000D9C124 /* UIImageViewStub.swift */,
+				911D00261E12D1D900D9C124 /* UILabelStub.swift */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		911D00111E129DAE00D9C124 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				91BA35581E0D964800ED0252 /* Info.plist */,
+				916D5F531E107083008D2991 /* ValidAlbum.plist */,
+				916D5F501E10651C008D2991 /* InvalidAlbum.plist */,
+				916D5F521E107083008D2991 /* InvalidAlbum2.plist */,
+				916D5F4E1E10648F008D2991 /* EmptyAlbum.plist */,
+			);
+			name = TestData;
+			sourceTree = "<group>";
+		};
 		911DFFFD1E115F7500D9C124 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
 				911DFFFE1E115F8400D9C124 /* MockCollectionViewController.swift */,
 				911D00091E11D7F800D9C124 /* MockCollectionViewCell.swift */,
+				911D00141E129E5B00D9C124 /* MockCollectionViewModel.swift */,
+				911D00161E12A56800D9C124 /* MockCollectionViewCellViewModel.swift */,
+				911D00181E12BC5C00D9C124 /* MockCollectionViewSectionHeaderViewModel.swift */,
 			);
 			name = Mocks;
 			sourceTree = "<group>";
@@ -155,6 +199,7 @@
 			children = (
 				911DFFFA1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift */,
 				911D00061E11D10300D9C124 /* CollectionViewCellProtocol.swift */,
+				911D000D1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -197,18 +242,17 @@
 		91BA35551E0D964800ED0252 /* PhotoBookTests */ = {
 			isa = PBXGroup;
 			children = (
+				911D00111E129DAE00D9C124 /* TestData */,
+				911D00101E129DA000D9C124 /* Stubs */,
 				911DFFFD1E115F7500D9C124 /* Mocks */,
-				916D5F531E107083008D2991 /* ValidAlbum.plist */,
-				916D5F501E10651C008D2991 /* InvalidAlbum.plist */,
-				916D5F521E107083008D2991 /* InvalidAlbum2.plist */,
-				916D5F4E1E10648F008D2991 /* EmptyAlbum.plist */,
-				91BA35561E0D964800ED0252 /* PhotoBookTests.swift */,
-				91BA35581E0D964800ED0252 /* Info.plist */,
 				916D5F4C1E103933008D2991 /* AlbumTests.swift */,
 				911DFFEE1E111FF000D9C124 /* CityTests.swift */,
 				911DFFF01E112D2500D9C124 /* PhotoTests.swift */,
 				911DFFF21E115B5400D9C124 /* CollectionViewModelTests.swift */,
 				911D000B1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift */,
+				911D00121E129E1A00D9C124 /* CollectionViewControllerTests.swift */,
+				911D001F1E12D13000D9C124 /* CollectionViewCellTests.swift */,
+				911D00211E12D14300D9C124 /* CollectionViewSectionHeaderTests.swift */,
 			);
 			path = PhotoBookTests;
 			sourceTree = "<group>";
@@ -326,6 +370,7 @@
 				916D5F471E102E24008D2991 /* City.swift in Sources */,
 				91604E551E0DA20500CD07E1 /* CollectionViewCell.swift in Sources */,
 				911DFFF81E115D9F00D9C124 /* CollectionViewModel.swift in Sources */,
+				911D000E1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift in Sources */,
 				91604E581E0DA21900CD07E1 /* CollectionViewSectionHeader.swift in Sources */,
 				916D5F4A1E102FFF008D2991 /* Album.swift in Sources */,
 				911DFFFB1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift in Sources */,
@@ -340,18 +385,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911D00131E129E1A00D9C124 /* CollectionViewControllerTests.swift in Sources */,
+				911D00151E129E5B00D9C124 /* MockCollectionViewModel.swift in Sources */,
+				911D00251E12D1C000D9C124 /* UIImageViewStub.swift in Sources */,
 				911DFFF91E115D9F00D9C124 /* CollectionViewModel.swift in Sources */,
+				911D00271E12D1D900D9C124 /* UILabelStub.swift in Sources */,
+				911D00171E12A56800D9C124 /* MockCollectionViewCellViewModel.swift in Sources */,
 				91604E531E0DA1BD00CD07E1 /* CollectionViewController.swift in Sources */,
-				91BA35571E0D964800ED0252 /* PhotoBookTests.swift in Sources */,
 				911DFFF11E112D2500D9C124 /* PhotoTests.swift in Sources */,
 				911D00021E1174BB00D9C124 /* CollectionViewCellViewModel.swift in Sources */,
+				911D00191E12BC5C00D9C124 /* MockCollectionViewSectionHeaderViewModel.swift in Sources */,
 				916D5F481E102E24008D2991 /* City.swift in Sources */,
 				911D00051E11CD2F00D9C124 /* CollectionViewSectionHeaderViewModel.swift in Sources */,
+				911D000F1E127E9900D9C124 /* CollectionViewSectionHeaderProtocol.swift in Sources */,
 				91604E561E0DA20500CD07E1 /* CollectionViewCell.swift in Sources */,
 				91604E591E0DA21900CD07E1 /* CollectionViewSectionHeader.swift in Sources */,
 				916D5F4B1E102FFF008D2991 /* Album.swift in Sources */,
 				911DFFFC1E115F1C00D9C124 /* CollectionViewControllerProtocol.swift in Sources */,
+				911D00201E12D13000D9C124 /* CollectionViewCellTests.swift in Sources */,
 				911D000C1E11D94800D9C124 /* CollectionViewCellViewModelTests.swift in Sources */,
+				911D001B1E12BE2D00D9C124 /* UICollectionViewStub.swift in Sources */,
 				916D5F451E102A04008D2991 /* Photo.swift in Sources */,
 				911D000A1E11D7F800D9C124 /* MockCollectionViewCell.swift in Sources */,
 				911DFFF31E115B5400D9C124 /* CollectionViewModelTests.swift in Sources */,
@@ -359,6 +412,7 @@
 				911D00081E11D10300D9C124 /* CollectionViewCellProtocol.swift in Sources */,
 				911DFFFF1E115F8400D9C124 /* MockCollectionViewController.swift in Sources */,
 				916D5F4D1E103933008D2991 /* AlbumTests.swift in Sources */,
+				911D00221E12D14300D9C124 /* CollectionViewSectionHeaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

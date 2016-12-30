@@ -25,7 +25,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="BN2-ms-aZI" customClass="CollectionViewCell" customModule="PhotoBook" customModuleProvider="target">
-                                <rect key="frame" x="63" y="25" width="250" height="200"/>
+                                <rect key="frame" x="62.5" y="25" width="250" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jFF-Ug-hmp" customClass="CollectionViewSectionHeader" customModule="PhotoBook" customModuleProvider="target">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewSectionHeader" id="jFF-Ug-hmp" customClass="CollectionViewSectionHeader" customModule="PhotoBook" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
